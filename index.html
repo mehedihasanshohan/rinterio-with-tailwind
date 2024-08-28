@@ -4,9 +4,70 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rinterio</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-  <h2>Mehedi Hasan Shohan</h2>
-
+  <!-- <h2>Mehedi Hasan Shohan</h2> -->
+  <header>
+    <section class="container mx-auto">
+      <div class="navbar flex justify-center bg-base-100">
+        <div class="navbar-start flex-1 text-center">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li><a>Servvices</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contacts</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">
+            <i class="fa-solid ml-2 fa-arrow-right mr-2 rounded-full bg-green-800 text-white p-2 -rotate-45"></i>
+            <span >Rinterio</span>
+          </a>
+        </div>
+        <div class="navbar-center flex-1 hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="font-bold">Home</a></li>
+              <li><a class="font-bold text-gray-500">Servvices</a></li>
+              <li><a class="font-bold text-gray-500">Portfolio</a></li>
+              <li><a class="font-bold text-gray-500">Blogs</a></li>
+              <li><a class="font-bold text-gray-500">Contacts</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end flex-1 h-[56px] w-[340px]">
+          <i class="fa-solid fa-magnifying-glass bg-gray-300 rounded-full p-2"></i>
+          <i class="fa-solid fa-cart-shopping ml-4 mr-4 rounded-full bg-gray-300 p-2"></i>
+          <button type="button" class="text-white bg-gradient-to-r from-cyan-400
+           via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none
+            focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg
+             dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2 text-center me-2 mb-2">
+             Book Consult <i class="fa-solid ml-2 fa-arrow-right mr-2 rounded-full bg-green-800 text-white p-2 -rotate-45"></i> </button>
+        </div>
+      </div>
+    </section>
+  </header>
 </body>
 </html>
